@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     end
   end
   name_hash.each do |key, value|
-    if min_value == key
+    if min_value == value
       return key
     end
   end
